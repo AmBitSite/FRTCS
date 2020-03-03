@@ -32,9 +32,12 @@ h1, h2, h3 {
 }
 
 .nav {
-    width: 1200px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 53px;
     align-items: center;
     margin: 0 auto;
@@ -243,8 +246,11 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     width: 1200px;
+    align-items: center;
 }
-
+.align-start{
+    align-items: flex-start;
+}
 .footer__header {
     display: flex;
     width: 600px;

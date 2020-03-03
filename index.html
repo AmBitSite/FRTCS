@@ -13,22 +13,25 @@
 </head>
 
 <body class="body">
+    <nav class="nav">
+        <div class="width-1200 flex-row">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <ul class="nav-wrap">
+                <li class="nav-wrap__item">
+                    <a href="#about" class="nav-wrap__link">ABOUT US</a>
+                </li>
+                <li class="nav-wrap__item">
+                    <a href="#services" class="nav-wrap__link">SERVICES</a>
+                </li>
+                <li class="nav-wrap__item">
+                    <a href="#contact" class="nav-wrap__link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <main class="main">
         <header class="header">
-            <nav class="nav">
-                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-                <ul class="nav-wrap">
-                    <li class="nav-wrap__item">
-                        <a href="#about" class="nav-wrap__link">ABOUT US</a>
-                    </li>
-                    <li class="nav-wrap__item">
-                        <a href="#services" class="nav-wrap__link">SERVICES</a>
-                    </li>
-                    <li class="nav-wrap__item">
-                        <a href="#contact" class="nav-wrap__link">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+
             <div class="header-block">
                 <div class="header-block-main-info">
                     <h1 class="section__header" id="about">About us</h1>
@@ -96,7 +99,7 @@
                             position of interest of the customer.
                         </span>
                     </div>
-                    <img src="img/services3.png" alt="services image">
+                    <img class="section-column_second-img" src="img/services3.png" alt="services image">
                     <div class="services-block-transletion">
                         <h3 class="section__main-text section__main-text_w-400">
                             Translation services
@@ -131,7 +134,7 @@
             </div>
         </section>
         <section class="section section-form">
-            <div class="width-1200">
+            <div class="width-1200 align-start">
                 <h2 class="section__header" id="contact">Contact us</h2>
                 <form action="mail.php" method="POST" class="form">
                     <span class="footer__header section__text section__text_color_green">Please live your email and our
@@ -158,8 +161,8 @@
         <div class="footer-block-copyright">
             <div class="footer-block-copyright-content">
                 <span class="footer__address">Minsk, Platonova str., 20B, office 609</span>
-                <div>
-                    <a class="footer__email" href="mailto:info@ftcs.com">info@ftcs.com</a>
+                <div class="contact-block">
+                    <a class="footer__email" href="mailto:info@firsttacs.com">info@firsttacs.com</a>
                     <a class="footer__phone" href="telto:+375173556282">+37517 3556282</a>
                 </div>
             </div>
